@@ -1,0 +1,26 @@
+[
+  {
+    "run_id": "6733b242d48d4de2857b01abe1e217b6",
+    "candidate": "ResNet50 FP32",
+    "parameters_millions": 25.6,
+    "bits_per_weight": 32,
+    "estimated_raw_weight_MB": 102.4,
+    "evidence_type": "analytical_estimate"
+  },
+  {
+    "run_id": "bccafc95ba2240bfbcbe70d1dc17ef27",
+    "candidate": "MobileNetV2 FP32",
+    "parameters_millions": 3.5,
+    "bits_per_weight": 32,
+    "estimated_raw_weight_MB": 14.0,
+    "evidence_type": "analytical_estimate"
+  },
+  {
+    "run_id": "a44141a4a38e49c08628fa3d90efc309",
+    "candidate": "MobileNetV2 INT8",
+    "parameters_millions": 3.5,
+    "bits_per_weight": 8,
+    "estimated_raw_weight_MB": 3.5,
+    "evidence_type": "analytical_estimate"
+  }
+]
