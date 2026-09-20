@@ -1,0 +1,161 @@
+{
+  "sentiment": [
+    [
+      "The lecture was engaging and easy to follow.",
+      {
+        "label": "POSITIVE",
+        "score": 0.9996544122695923
+      }
+    ],
+    [
+      "The notebook is confusing.",
+      {
+        "label": "NEGATIVE",
+        "score": 0.999387264251709
+      }
+    ]
+  ],
+  "sentiment_probes": [
+    [
+      "The explanations were helpful, but the audio was terrible.",
+      {
+        "label": "NEGATIVE",
+        "score": 0.9980430603027344
+      }
+    ],
+    [
+      "Great, another crash right before my deadline.",
+      {
+        "label": "POSITIVE",
+        "score": 0.9729446172714233
+      }
+    ]
+  ],
+  "fill_mask": [
+    {
+      "score": 0.9815373420715332,
+      "token": 3007,
+      "token_str": "capital",
+      "sequence": "paris is the capital of france."
+    },
+    {
+      "score": 0.0033423895947635174,
+      "token": 14508,
+      "token_str": "birthplace",
+      "sequence": "paris is the birthplace of france."
+    },
+    {
+      "score": 0.0010446939850226045,
+      "token": 22037,
+      "token_str": "northernmost",
+      "sequence": "paris is the northernmost of france."
+    }
+  ],
+  "ner": [
+    {
+      "entity_group": "PER",
+      "score": 0.9990736246109009,
+      "word": "Sarah",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "entity_group": "ORG",
+      "score": 0.9986039996147156,
+      "word": "Microsoft",
+      "start": 15,
+      "end": 24
+    },
+    {
+      "entity_group": "LOC",
+      "score": 0.9994895458221436,
+      "word": "London",
+      "start": 28,
+      "end": 34
+    }
+  ],
+  "question_answering": {
+    "score": 0.9909743070602417,
+    "start": 42,
+    "end": 51,
+    "answer": "Singapore"
+  },
+  "text_generation": [
+    {
+      "generated_text": "The purpose of machine learning is to learn how to use the data to learn how to use the data to learn how to use the data to learn how to use the data to learn how to use the data to learn how to use"
+    }
+  ],
+  "tokenisation": {
+    "input_ids": [
+      [
+        101,
+        2023,
+        2607,
+        2003,
+        6581,
+        1012,
+        102
+      ],
+      [
+        101,
+        9643,
+        1012,
+        102,
+        0,
+        0,
+        0
+      ]
+    ],
+    "attention_mask": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "hidden_shape": [
+    2,
+    7,
+    768
+  ],
+  "classification": {
+    "logits": [
+      [
+        -4.263468265533447,
+        4.627264022827148
+      ],
+      [
+        4.706772327423096,
+        -3.793555736541748
+      ]
+    ],
+    "probabilities": [
+      [
+        0.00013763993047177792,
+        0.9998623132705688
+      ],
+      [
+        0.9997966885566711,
+        0.00020336027955636382
+      ]
+    ],
+    "labels": [
+      "POSITIVE",
+      "NEGATIVE"
+    ]
+  }
+}
